@@ -129,9 +129,10 @@ It explores, keeps track of different paths, and learns which one is the most ef
 👉 For the full details, check it out on my [repositories!](https://github.com/Janlearns/MiniProject)</p>
 
 
-### 🥰 See my snake eating 
+### 😮 Pacman
 
-<img src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" alt="Snake animation" />
+<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg">
+<img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg">
 
 
 
