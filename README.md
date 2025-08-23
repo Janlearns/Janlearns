@@ -101,11 +101,12 @@
 
 <p align="left">Try it out</p>
 
-<a href="https://janlearns.github.io/MiniProject/">
-  <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
-       alt="Play Game"
-       width="250"
-       style="border-radius:12px;" />
-</a>
+<p align="center">
+  <a href="https://janlearns.github.io/MiniProject/">
+    <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
+         alt="Play Game" 
+         style="width:250px; border-radius:15px; display:block; margin:auto;">
+  </a>
+</p>
 
 
