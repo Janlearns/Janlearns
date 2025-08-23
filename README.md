@@ -120,7 +120,7 @@ I love exploring data, finding cool insights, and building models that can actua
          style="width:800px; border-radius:50px; display:block; margin:auto;">
   </a>
 </p>
-<p align="left>🌀 It's called **NPC Maze Solver** — a fun AI project where an NPC tries to escape a maze by finding the smartest route.  
+<p align="left">🌀 It's called **NPC Maze Solver** — a fun AI project where an NPC tries to escape a maze by finding the smartest route.  
 It explores, keeps track of different paths, and learns which one is the most efficient.  
 
 👉 For the full details, check it out on my repositories!</p>
