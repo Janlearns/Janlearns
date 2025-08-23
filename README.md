@@ -68,7 +68,7 @@
 ###
 
 <p align="left">
-Hey there, I'm Rayzan 👋  
+I'm Rayzan 👋  
 Right now I'm diving into the world of **Machine Learning, Deep Learning, and Data Science**.  
 I love exploring data, finding cool insights, and building models that can actually solve real problems.  
 
