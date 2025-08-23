@@ -105,7 +105,7 @@
   <a href="https://janlearns.github.io/MiniProject/">
     <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
          alt="Play Game" 
-         style="width:250px; border-radius:15px; display:block; margin:auto;">
+         style="width:500px; border-radius:20px; display:block; margin:auto;">
   </a>
 </p>
 
