@@ -101,4 +101,4 @@
 
 <p align="left">Play My Games</p>
 
-[![Play Game](https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png)](https://janlearns.github.io/MiniProject/play.html)
+[![Play Game](https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png)](https://janlearns.github.io/MiniProject/)
