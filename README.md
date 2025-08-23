@@ -67,8 +67,20 @@
 
 ###
 
-<p align="left">I'm **Rayzan**, currently learning and exploring the world of **Machine Learning, Deep Learning, and Data Science**.  <br>I enjoy turning data into insights and building models that can solve real-world problems.  <br><br>🌱 Right now, I'm focused on:  <br>- Understanding the fundamentals of ML & DL  <br>- Experimenting with data preprocessing and model building  <br>- Learning how to bring models into real applications  <br><br>💡 My goal is to grow into a **Machine Learning Engineer** with a strong foundation in **Data Science**.  <br><br>📫 Let's connect and share knowledge!</p>
+<p align="left">
+Hey there, I'm Rayzan 👋  
+Right now I'm diving into the world of **Machine Learning, Deep Learning, and Data Science**.  
+I love exploring data, finding cool insights, and building models that can actually solve real problems.  
 
+🌱 Currently learning and focusing on:  
+- Getting a solid grasp of ML & DL fundamentals  
+- Playing around with data preprocessing and model building  
+- Figuring out how to bring models into real-world apps  
+
+💡 My goal is to grow into a **Machine Learning Engineer** with a strong base in **Data Science**.  
+
+📫 Always open to connect, chat, and share knowledge!
+</p>
 ###
 
 <h3 align="left">🛠 TechStack</h3>
