@@ -99,6 +99,13 @@
 
 ###
 
-<p align="left">Play My Games</p>
+<p align="left">Try it out</p>
 
-[![Play Game](https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png)](https://janlearns.github.io/MiniProject/)
+<a href="https://janlearns.github.io/MiniProject/">
+  <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
+       alt="Play Game"
+       width="250"
+       style="border-radius:12px;" />
+</a>
+
+
