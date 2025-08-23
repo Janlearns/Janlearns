@@ -101,4 +101,5 @@
 
 <p align="left">Play My Games</p>
 
-[![Game Preview](https://raw.githubusercontent.com/Janlearns/MiniProject/main/screenshot.png)](https://janlearns.github.io/MiniProject/)
+[![Game Preview](img
+/Screenshot 2025-08-24 002416.png)](https://janlearns.github.io/MiniProject/)
