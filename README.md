@@ -99,7 +99,7 @@
 
 ###
 
-<p align="left">Try it out</p>
+<p align="left">Try it out 😋</p>
 
 <p align="center">
   <a href="https://janlearns.github.io/MiniProject/">
@@ -108,5 +108,10 @@
          style="width:800px; border-radius:50px; display:block; margin:auto;">
   </a>
 </p>
+
+### See my snake eating 🥰
+
+<img src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" alt="Snake animation" />
+
 
 
