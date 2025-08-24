@@ -129,13 +129,4 @@ It explores, keeps track of different paths, and learns which one is the most ef
 👉 For the full details, check it out on my [repositories!](https://github.com/Janlearns/MiniProject)</p>
 
 
-### 😮 Pacman?
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg">
-</picture>
-
-
 
