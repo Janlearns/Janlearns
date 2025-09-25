@@ -17,17 +17,23 @@
 <!-- # 💫 About Me:
 Hi there 👋  <br><br>
 
-I'm Rayzan, an aspiring Machine Learning & AI Engineer exploring how intelligent systems can solve real-world problems. <br><br>
-💡 I enjoy designing, training, and optimizing models — from turning raw data into insights to deploying AI-powered applications. <br><br>
-🌱 Right now, I’m focused on: <br>
+I'm Rayzan, an aspiring Machine Learning & AI Engineer exploring how intelligent systems can solve real-world problems.  <br><br>
 
-Strengthening my fundamentals in Machine Learning & Deep Learning <br>
+💡 I enjoy designing, training, and optimizing models — from turning raw data into insights to deploying AI-powered applications.  <br><br>
 
-Experimenting with data preprocessing, model building, and evaluation <br>
+🌱 Right now, I’m focused on:  <br>
 
-Learning how to deploy and scale models in real-world environments <br><br>
-🚀 My goal is to grow into a skilled ML/AI Engineer with a solid foundation in Data Science and practical AI development. <br><br>
-📫 Let’s connect and share knowledge about AI, ML, and beyond! <br>
+Strengthening my fundamentals in Machine Learning & Deep Learning  <br>
+
+Experimenting with data preprocessing, model building, and evaluation  <br>
+
+Learning how to deploy and scale models in real-world environments  <br><br>
+
+
+🚀 My goal is to grow into a skilled ML/AI Engineer with a solid foundation in Data Science and practical AI development.  <br><br>
+
+📫 Let’s connect and share knowledge about AI, ML, and beyond!  <br>
+
 
 
 ## 🌐 Socials:
