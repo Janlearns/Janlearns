@@ -15,7 +15,25 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> -->
 
 <!-- # 💫 About Me:
-##### Hi there 👋  <br><br>I'm **Rayzan**, currently learning and exploring the world of **Machine Learning, Deep Learning, and Data Science**.  <br>I enjoy turning data into insights and building models that can solve real-world problems.  <br><br>🌱 Right now, I'm focused on:  <br>- Understanding the fundamentals of ML & DL  <br>- Experimenting with data preprocessing and model building  <br>- Learning how to bring models into real applications  <br><br>💡 My goal is to grow into a **Machine Learning Engineer** with a strong foundation in **Data Science**.  <br><br>📫 Let's connect and share knowledge!  <br>
+Kalau teks yang kamu tulis masih agak terasa ke arah belajar Data Science, Jan. Kalau mau lebih condong ke Machine Learning / AI Engineer, bisa dipoles biar fokusnya ke membangun model, sistem, dan aplikasi AI. Aku bikinin versi revisi yang balance antara “lagi belajar” tapi tetap nunjukin arah ke ML/AI Engineer:
+
+
+---
+
+Hi there 👋  <br><br>
+
+I'm Rayzan, an aspiring Machine Learning & AI Engineer exploring how intelligent systems can solve real-world problems. <br><br>
+💡 I enjoy designing, training, and optimizing models — from turning raw data into insights to deploying AI-powered applications. <br><br>
+🌱 Right now, I’m focused on: <br>
+
+Strengthening my fundamentals in Machine Learning & Deep Learning <br>
+
+Experimenting with data preprocessing, model building, and evaluation <br>
+
+Learning how to deploy and scale models in real-world environments <br><br>
+🚀 My goal is to grow into a skilled ML/AI Engineer with a solid foundation in Data Science and practical AI development. <br><br>
+📫 Let’s connect and share knowledge about AI, ML, and beyond! <br>
+
 
 
 ## 🌐 Socials:
