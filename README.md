@@ -15,11 +15,6 @@
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> -->
 
 <!-- # 💫 About Me:
-Kalau teks yang kamu tulis masih agak terasa ke arah belajar Data Science, Jan. Kalau mau lebih condong ke Machine Learning / AI Engineer, bisa dipoles biar fokusnya ke membangun model, sistem, dan aplikasi AI. Aku bikinin versi revisi yang balance antara “lagi belajar” tapi tetap nunjukin arah ke ML/AI Engineer:
-
-
----
-
 Hi there 👋  <br><br>
 
 I'm Rayzan, an aspiring Machine Learning & AI Engineer exploring how intelligent systems can solve real-world problems. <br><br>
@@ -33,7 +28,6 @@ Experimenting with data preprocessing, model building, and evaluation <br>
 Learning how to deploy and scale models in real-world environments <br><br>
 🚀 My goal is to grow into a skilled ML/AI Engineer with a solid foundation in Data Science and practical AI development. <br><br>
 📫 Let’s connect and share knowledge about AI, ML, and beyond! <br>
-
 
 
 ## 🌐 Socials:
