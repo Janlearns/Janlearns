@@ -86,18 +86,20 @@ Learning how to deploy and scale models in real-world environments  <br><br>
 ###
 
 <p align="left">
-I'm Rayzan 👋  
-Right now I'm diving into the world of **Machine Learning, Deep Learning, and Data Science**.  
-I love exploring data, finding cool insights, and building models that can actually solve real problems.  
+## Hey, I'm Rayzan 👋  
+I’m passionate about **Machine Learning, Artificial Intelligence, and Data Science** — turning raw data into real, intelligent solutions.  
+I love experimenting with models, understanding how they learn, and seeing how AI can make a real-world impact.  
 
-🌱 Currently learning and focusing on:  
-- Getting a solid grasp of ML & DL fundamentals  
-- Playing around with data preprocessing and model building  
-- Figuring out how to bring models into real-world apps  
+🌱 **Currently learning and exploring:**  
+- Deep understanding of ML & AI fundamentals  
+- Data preprocessing, feature engineering, and model optimization  
+- Integrating AI models into practical applications and systems  
 
-💡 My goal is to grow into a **Machine Learning Engineer** with a strong base in **Data Science**.  
+💡 **My vision:**  
+To become a **Machine Learning Engineer** who not only builds accurate models,  
+but also understands the full pipeline — from data to deployment.  
 
-📫 Always open to connect, chat, and share knowledge!
+📫 Always open for discussions, collaborations, or just geeking out about AI!
 </p>
 ###
 
