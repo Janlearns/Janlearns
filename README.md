@@ -1,59 +1,3 @@
-<!-- ![Rayzan](img/github-header-banner.png) -->
-
-
-<!-- -
--
--
-##### Skills
-[![My Skills](https://skillicons.dev/icons?i=python,js,)](https://skillicons.dev)
-
-##### Librarys
-<img src="https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white" />
-<img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" />
-<img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" /> -->
-
-<!-- # 💫 About Me:
-Hi there 👋  <br><br>
-
-I'm Rayzan, an aspiring Machine Learning & AI Engineer exploring how intelligent systems can solve real-world problems.  <br><br>
-
-💡 I enjoy designing, training, and optimizing models — from turning raw data into insights to deploying AI-powered applications.  <br><br>
-
-🌱 Right now, I’m focused on:  <br>
-
-Strengthening my fundamentals in Machine Learning & Deep Learning  <br>
-
-Experimenting with data preprocessing, model building, and evaluation  <br>
-
-Learning how to deploy and scale models in real-world environments  <br><br>
-
-
-🚀 My goal is to grow into a skilled ML/AI Engineer with a solid foundation in Data Science and practical AI development.  <br><br>
-
-📫 Let’s connect and share knowledge about AI, ML, and beyond!  <br>
-
-
-
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rayzan3_0) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/Rayzan Fazri Ramdany) 
-
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Janlearns&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Janlearns&theme=gruvbox&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&theme=gruvbox&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Janlearns&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-[![](https://visitcount.itsvg.in/api?id=Janlearns&icon=0&color=0)](https://visitcount.itsvg.in) -->
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
 <div align="center">
   <img height="200" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
@@ -77,7 +21,7 @@ Learning how to deploy and scale models in real-world environments  <br><br>
 
 ###
 
-<h1 align="center">hey there 👋</h1>
+<h1 align="center">Hello, I'm Rayzan 👋</h1>
 
 ###
 
@@ -86,24 +30,22 @@ Learning how to deploy and scale models in real-world environments  <br><br>
 ###
 
 <p align="left">
-## Hey, I'm Rayzan 👋  
-I’m passionate about **Machine Learning, Artificial Intelligence, and Data Science** — turning raw data into real, intelligent solutions.  
-I love experimenting with models, understanding how they learn, and seeing how AI can make a real-world impact.  
 
-🌱 **Currently learning and exploring:**  
-- Deep understanding of ML & AI fundamentals  
-- Data preprocessing, feature engineering, and model optimization  
-- Integrating AI models into practical applications and systems  
+I am an aspiring **Machine Learning & AI Engineer**, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
 
-💡 **My vision:**  
-To become a **Machine Learning Engineer** who not only builds accurate models,  
-but also understands the full pipeline — from data to deployment.  
+🌱 **Current Focus:**
+- Advancing core competencies in **Machine Learning & Deep Learning**.
+- Mastering data preprocessing, feature engineering, and model optimization.
+- Integrating AI models into production-ready applications.
 
-📫 Always open for discussions, collaborations, or just geeking out about AI!
+💡 **Professional Vision:**
+To evolve into a full-stack **Machine Learning Engineer** capable of managing the entire lifecycle of AI solutions—from data ingestion to model deployment.
+
+📫 Open to collaborations and discussions on AI advancements and data science.
 </p>
 ###
 
-<h3 align="left">🛠 TechStack</h3>
+<h3 align="left">🛠 Tech Stack</h3>
 
 ###
 
@@ -123,7 +65,7 @@ but also understands the full pipeline — from data to deployment.
 
 ###
 
-<h3 align="left">🔥   My Stats :</h3>
+<h3 align="left">📈 GitHub Stats</h3>
 
 ###
 
@@ -133,7 +75,7 @@ but also understands the full pipeline — from data to deployment.
 
 ###
 
-<h3 align="left">😋Try it out </h3>
+<h3 align="left">🧩 Featured Project: NPC Maze Solver</h3>
 
 <p align="center">
   <a href="https://janlearns.github.io/MiniProject/">
@@ -142,10 +84,11 @@ but also understands the full pipeline — from data to deployment.
          style="width:800px; border-radius:50px; display:block; margin:auto;">
   </a>
 </p>
-<p align="left">🌀 this is one of the projects I made, It's called **NPC Maze Solver** — a fun AI project where an NPC tries to escape a maze by finding the smartest route.  
-It explores, keeps track of different paths, and learns which one is the most efficient.  
+<p align="left">
+<b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
 
-👉 For the full details, check it out on my [repositories!](https://github.com/Janlearns/MiniProject)</p>
+👉 Explore the full implementation in the [repository](https://github.com/Janlearns/MiniProject).
+</p>
 
 
 
