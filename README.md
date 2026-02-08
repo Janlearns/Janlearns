@@ -78,7 +78,7 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 <h3 align="left">🧩 Featured Project: NPC Maze Solver</h3>
 
 <p align="center">
-  <a href="https://janlearns.github.io/MiniProject/">
+  <a href="https://janlearns.github.io/NPC_maze_project/">
     <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
          alt="Play Game" 
          style="width:800px; border-radius:50px; display:block; margin:auto;">
