@@ -1,126 +1,97 @@
-<table width="100%" bgcolor="#070B18">
-<tr>
-<td>
-
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Rayzan%20Fazri%20Ramdany&fontAlign=50&fontAlignY=38&color=0:111111,25:3A0CA3,50:4361EE,75:00B4D8,100:F72585&fontColor=F8F9FA&fontSize=44&animation=fadeIn&fontAlignY=38" alt="header" />
+  <img height="200" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif"  />
 </div>
 
-<div align="center">
-  <img height="185" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" alt="coding gif" />
-</div>
+
 
 <div align="center">
-
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=120&lines=Machine+Learning+%26+AI+Engineer;Deep+Learning+%7C+NLP+%7C+RAG+Systems;Building+Intelligent+AI+Applications)
-
-</div>
-
-<div align="center">
-  <a href="https://github.com/Janlearns">
-    <img src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNJ9uEOEYRQSL7lWwGOogtQ%3D%3D" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="linkedin logo"  />
   </a>
-  <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.instagram.com/rayzan3_0">
-    <img src="https://img.shields.io/badge/Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
-  </a>
-  <a href="mailto:rayzanfazri@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  <a href="https://www.instagram.com/rayzan3_0?igsh=NXdrdTRzcDRyazFt" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Instagram&logo=instagram&label=&color=E4405F&logoColor=white&labelColor=&style=for-the-badge" height="25" alt="instagram logo"  />
   </a>
 </div>
 
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=Janlearns&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/Janlearns?style=for-the-badge&logo=github&label=FOLLOWERS&color=00B4D8" />
-  <img src="https://img.shields.io/github/stars/Janlearns?style=for-the-badge&logo=github&label=TOTAL+STARS&color=F72585" />
-</div>
-
-<br>
+###
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Janlearns&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" width="100%" alt="trophies"/>
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=Janlearns.Janlearns&"  />
 </div>
 
-<h3 align="center">🧬 About Me</h3>
+###
 
-<div align="center">
+<h1 align="center">Hello, I'm Rayzan 👋</h1>
 
-💡 I am an aspiring **Machine Learning & AI Engineer** focused on turning raw data into intelligent and scalable systems.  
-🚀 I build practical AI workflows across **Deep Learning**, **NLP**, **RAG systems**, and **AI agents**.  
-🎯 My goal is to become a full-stack ML engineer who can design, train, deploy, and monitor end-to-end AI products.
+###
 
-</div>
+<h3 align="left">👩‍💻  About Me</h3>
 
-<h3 align="center">🛠️ Tech Stack</h3>
+###
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,docker,git,github,vscode,linux,unity&theme=dark" />
-</div>
+<p align="left">
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Focus-Deep%20Learning-1F6FEB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-NLP-7C3AED?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-RAG%20Systems-06B6D4?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-AI%20Agents-F43F5E?style=for-the-badge" />
-</div>
+I am an aspiring **Machine Learning & AI Engineer**, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
 
-<h3 align="center">📈 Stats & Activity</h3>
+🌱 **Current Focus:**
+- Advancing core competencies in **Machine Learning & Deep Learning**.
+- Mastering data preprocessing, feature engineering, and model optimization.
+- Integrating AI models into production-ready applications.
 
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="37%" />
-</div>
+💡 **Professional Vision:**
+To evolve into a full-stack **Machine Learning Engineer** capable of managing the entire lifecycle of AI solutions—from data ingestion to model deployment.
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Janlearns&theme=tokyonight&hide_border=true&background=00000000" width="49%" />
-</div>
+📫 Open to collaborations and discussions on AI advancements and data science.
+</p>
+###
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&bg_color=0d1117&color=38bdf8&line=f72585&point=7c3aed&area=true&area_color=00b4d8&hide_border=true" width="97%" />
-</div>
+<h3 align="left">🛠 Tech Stack</h3>
 
-<h3 align="center">🌌 AI Quote of the Moment</h3>
-
-<div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
-</div>
-
-<h3 align="center">🧩 Featured Project · NPC Maze Solver</h3>
-
-<div align="center">
-  <a href="https://janlearns.github.io/NPC_maze_project/">
-    <img src="https://raw.githubusercontent.com/Janlearns/Janlearns/main/img/Screenshot%202025-08-24%20002416.png" alt="NPC Maze Solver Demo" width="850" />
-  </a>
-</div>
+###
 
 <div align="center">
 
-**NPC Maze Solver** showcases an autonomous AI agent that explores maze states, evaluates routes, and searches efficient escape paths.  
-A compact demonstration of intelligent navigation and game-agent behavior.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) 
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) 
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) 
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) 
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) 
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) 
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) 
 
 </div>
 
-<div align="center">
-  <a href="https://janlearns.github.io/NPC_maze_project/">
-    <img src="https://img.shields.io/badge/%E2%96%B6%EF%B8%8F%20Live%20Demo-00B4D8?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://github.com/Janlearns/MiniProject">
-    <img src="https://img.shields.io/badge/%F0%9F%93%82%20Source%20Code-7C3AED?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
 
-<h3 align="center">🧠 Neural Core</h3>
+
+
+<h3 align="left">🧩 Featured Project: NPC Maze Solver</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Janlearns/Janlearns/main/img/neural-network-html-faithful.svg" width="100%" alt="Neural Core" />
+  <a href="https://janlearns.github.io/NPC_maze_project/">
+    <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
+         alt="Play Game" 
+         style="width:800px; border-radius:50px; display:block; margin:auto;">
+  </a>
 </p>
+<p align="left">
+<b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:F72585,30:7C3AED,60:00B4D8,100:111111" width="100%" />
+###
+
+<h3 align="left">Neural Core</h3>
+
+###
+
+<p align="center">
+  <img src="./img/neural-network-html-faithful.svg" width="100%">
+</p>
 </div>
 
-</td>
-</tr>
-</table>
+###
+
+👉 Explore the full implementation in the [repository](https://github.com/Janlearns/MiniProject).
+</p>
+
+
+
