@@ -65,12 +65,13 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 
 ###
 
-<h3 align="left">📈 GitHub Stats</h3>
+<h3 align="left">Github Neural</h3>
 
 ###
 
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Janlearns&locale=en&mode=daily&theme=dark&hide_border=false&border_radius=5&order=3" height="220" alt="streak graph"  />
+<p align="center">
+  <img src="./img/neural-network-html-faithful.svg" width="100%">
+</p>
 </div>
 
 ###
