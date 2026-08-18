@@ -1,29 +1,29 @@
 <div align="center">
   
-  <!-- Header Animation -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:0077B5&height=180&section=header&text=Rayzan%20Fazri%20Ramdany&fontSize=42&fontColor=fff&animation=twinkling" width="100%" />
+  <!-- Header Animation Waving -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:0077B5&height=200&section=header&text=Rayzan%20Fazri%20Ramdany&fontSize=42&fontColor=fff&animation=twinkling" width="100%" />
 
-  <!-- Typing SVG -->
+  <!-- Typing SVG Dynamic Animation -->
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=3000&pause=800&color=00F0FF&center=true&vCenter=true&width=600&lines=Machine+Learning+%26+AI+Engineer;NLP+%7C+Deep+Learning+%7C+Full-Stack;Turning+Data+Into+Intelligence" alt="Typing SVG" />
   </a>
 
   <br>
 
-  <!-- Social Badges -->
+  <!-- Interactive Social Badges -->
   <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="30" alt="LinkedIn" />
   </a>
   <a href="https://github.com/Janlearns" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="28" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" height="30" alt="GitHub" />
   </a>
   <a href="https://www.instagram.com/rayzan3_0?igsh=NXdrdTRzcDRyazFt" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="28" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" height="30" alt="Instagram" />
   </a>
 
   <br><br>
 
-  <!-- Visitor & Profile Views -->
+  <!-- Visitor Counter & Live Status -->
   <img src="https://komarev.com/ghpvc/?username=Janlearns&style=for-the-badge&color=00F0FF&label=PROFILE+VIEWS" />
   <img src="https://visitor-badge.laobi.icu/badge?page_id=Janlearns.Janlearns&color=0077B5" />
 
@@ -33,7 +33,7 @@
 
 ---
 
-<h3 align="left">👨‍💻 About Me</h3>
+### 👨‍💻 About Me
 
 <p align="left">
 I am an aspiring <b>Machine Learning & AI Engineer</b>, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
@@ -52,7 +52,7 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 
 ---
 
-<h3 align="left">🛠 Tech Stack</h3>
+### 🛠 Tech Stack
 
 <div align="center">
 
@@ -67,41 +67,29 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 
 ---
 
-<h3 align="left">🧩 Featured Project: NPC Maze Solver</h3>
-
-<p align="center">
-  <a href="https://janlearns.github.io/NPC_maze_project/">
-    <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png"
-         alt="Play Game"
-         width="800"
-         style="border-radius:20px;">
-  </a>
-</p>
-
-<p align="left">
-<b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
-</p>
+### ⚡ Interactive Web Widgets & Daily AI Quotes
 
 <div align="center">
-  <a href="https://janlearns.github.io/NPC_maze_project/">
-    <img src="https://img.shields.io/badge/▶️_Play_the_Demo-00F0FF?style=for-the-badge&logoColor=black" />
+
+  <!-- Dynamic Dev Quotes Widget -->
+  <a href="https://github.com/aamirafridi/readme-quotes">
+    <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" width="90%" alt="Dev Quote" />
   </a>
-  <a href="https://github.com/Janlearns/MiniProject">
-    <img src="https://img.shields.io/badge/📂_View_Repo-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
+
+  <br><br>
+
+  <!-- Interactive Snake Contribution Game Banner -->
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/github-contribution-grid-snake.svg" width="90%">
+  </picture>
+
 </div>
 
 ---
 
-<h3 align="left">🧠 Neural Core</h3>
-
-<p align="center">
-  <img src="./img/neural-network-html-faithful.svg" width="100%">
-</p>
-
----
-
-<h3 align="left">📊 GitHub Stats</h3>
+### 📊 GitHub Stats & Dynamic Analytics
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&title_color=00F0FF&icon_color=00F0FF" width="49%" />
@@ -116,7 +104,9 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&theme=tokyo-night&hide_border=true&color=00F0FF" width="97%" />
 </div>
 
-<h3 align="left">🏆 Trophies</h3>
+---
+
+### 🏆 GitHub Trophies
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Janlearns&theme=tokyonight&no-frame=true&row=1&column=6" />
