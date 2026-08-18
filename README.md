@@ -1,4 +1,4 @@
-<table bgcolor="#070B18" width="100%">
+<table width="100%" bgcolor="#070B18">
 <tr>
 <td>
 
@@ -23,7 +23,7 @@
   <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="https://www.instagram.com/rayzan3_0?igsh=NXdrdTRzcDRyazFt">
+  <a href="https://www.instagram.com/rayzan3_0">
     <img src="https://img.shields.io/badge/Instagram-833AB4?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram" />
   </a>
   <a href="mailto:rayzanfazri@gmail.com">
@@ -69,13 +69,22 @@
 <h3 align="center">📈 Stats & Activity</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070B18&rank_icon=github" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=070B18" width="37%" />
+
+  <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070B18&title_color=38BDF8&icon_color=7C3AED&text_color=E2E8F0" width="49%" />
+
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=070B18&title_color=38BDF8&text_color=E2E8F0" width="37%" />
+
 </div>
 
+<br>
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Janlearns&theme=tokyonight&hide_border=true&background=070B18" width="49%" />
+
+  <img src="https://streak-stats.demolab.com/?user=Janlearns&theme=tokyonight&hide_border=true&background=070B18&ring=7C3AED&fire=F72585&currStreakNum=38BDF8&sideNums=38BDF8&currStreakLabel=38BDF8&sideLabels=94A3B8&dates=64748B" width="49%" />
+
 </div>
+
+<br>
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&bg_color=070B18&color=38bdf8&line=f72585&point=7c3aed&area=true&area_color=00b4d8&hide_border=true" width="97%" />
@@ -91,7 +100,7 @@
 
 <div align="center">
   <a href="https://janlearns.github.io/NPC_maze_project/">
-    <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" alt="NPC Maze Solver Demo" width="850" style="border-radius: 18px;" />
+    <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" alt="NPC Maze Solver Demo" width="850" />
   </a>
 </div>
 
