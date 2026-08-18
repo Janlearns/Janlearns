@@ -1,3 +1,7 @@
+<table bgcolor="#070B18" width="100%">
+<tr>
+<td>
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Rayzan%20Fazri%20Ramdany&fontAlign=50&fontAlignY=38&color=0:111111,25:3A0CA3,50:4361EE,75:00B4D8,100:F72585&fontColor=F8F9FA&desc=Machine%20Learning%20%7C%20AI%20Engineer%20%7C%20NLP%20Builder&descAlignY=60&animation=fadeIn" width="100%"/>
 </div>
@@ -8,7 +12,7 @@
 
 <div align="center">
 
-![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2600&pause=900&color=38BDF8&center=true&vCenter=true&multiline=true&repeat=true&width=760&height=120&lines=Hi%2C+I'm+Rayzan+%F0%9F%91%8B;Building+AI+that+ships+to+the+real+world;Deep+Learning+%7C+NLP+%7C+RAG+%7C+Agents)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono\&weight=700\&size=28\&duration=2600\&pause=900\&color=38BDF8\&center=true\&vCenter=true\&multiline=true\&repeat=true\&width=760\&height=120\&lines=Hi%2C+I'm+Rayzan+%F0%9F%91%8B;Building+AI+that+ships+to+the+real+world;Deep+Learning+%7C+NLP+%7C+RAG+%7C+Agents)
 
 </div>
 
@@ -43,8 +47,8 @@
 
 <div align="center">
 
-💡 I am an aspiring **Machine Learning & AI Engineer** focused on turning raw data into intelligent and scalable systems.  
-🚀 I build practical AI workflows across **Deep Learning**, **NLP**, **RAG systems**, and **AI agents**.  
+💡 I am an aspiring **Machine Learning & AI Engineer** focused on turning raw data into intelligent and scalable systems.
+🚀 I build practical AI workflows across **Deep Learning**, **NLP**, **RAG systems**, and **AI agents**.
 🎯 My goal is to become a full-stack ML engineer who can design, train, deploy, and monitor end-to-end AI products.
 
 </div>
@@ -65,16 +69,16 @@
 <h3 align="center">📈 Stats & Activity</h3>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&rank_icon=github" width="49%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000" width="37%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=070B18&rank_icon=github" width="49%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=070B18" width="37%" />
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=Janlearns&theme=tokyonight&hide_border=true&background=00000000" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=Janlearns&theme=tokyonight&hide_border=true&background=070B18" width="49%" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&bg_color=0d1117&color=38bdf8&line=f72585&point=7c3aed&area=true&area_color=00b4d8&hide_border=true" width="97%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&bg_color=070B18&color=38bdf8&line=f72585&point=7c3aed&area=true&area_color=00b4d8&hide_border=true" width="97%" />
 </div>
 
 <h3 align="center">🌌 AI Quote of the Moment</h3>
@@ -93,7 +97,7 @@
 
 <div align="center">
 
-**NPC Maze Solver** showcases an autonomous AI agent that explores maze states, evaluates routes, and searches efficient escape paths.  
+**NPC Maze Solver** showcases an autonomous AI agent that explores maze states, evaluates routes, and searches efficient escape paths.
 A compact demonstration of intelligent navigation and game-agent behavior.
 
 </div>
@@ -116,3 +120,7 @@ A compact demonstration of intelligent navigation and game-agent behavior.
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=0:F72585,30:7C3AED,60:00B4D8,100:111111" width="100%" />
 </div>
+
+</td>
+</tr>
+</table>
