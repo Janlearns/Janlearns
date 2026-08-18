@@ -63,18 +63,7 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 </div>
 
 
-###
 
-<h3 align="left">Github Neural</h3>
-
-###
-
-<p align="center">
-  <img src="./img/neural-network-html-faithful.svg" width="100%">
-</p>
-</div>
-
-###
 
 <h3 align="left">🧩 Featured Project: NPC Maze Solver</h3>
 
@@ -87,6 +76,19 @@ To evolve into a full-stack **Machine Learning Engineer** capable of managing th
 </p>
 <p align="left">
 <b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
+
+###
+
+<h3 align="left">Neural Core</h3>
+
+###
+
+<p align="center">
+  <img src="./img/neural-network-html-faithful.svg" width="100%">
+</p>
+</div>
+
+###
 
 👉 Explore the full implementation in the [repository](https://github.com/Janlearns/MiniProject).
 </p>
