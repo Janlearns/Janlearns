@@ -185,25 +185,11 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 
 <br><br>
 
-<!-- PACMAN ANIMATION -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" />
-  <img alt="Pacman contribution animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" width="100%" />
-</picture>
-
 </div>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 💡 &nbsp;Developer Quote
-
-<div align="center">
-
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random Dev Quote" width="70%" />
-
-</div>
 
 <!-- FOOTER -->
 <br>
