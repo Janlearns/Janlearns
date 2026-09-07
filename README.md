@@ -6,11 +6,13 @@
 <br><br>
 
 <!-- TYPING SVG ANIMATION -->
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&duration=3500&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Scalable+Intelligent+Solutions+%F0%9F%A7%A0;Deep+Learning+%7C+Computer+Vision+%7C+NLP+%F0%9F%94%AC)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&duration=3500&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Scalable+Intelligent+Solutions+%F0%9F%A7%A0;Deep+Learning+%7C+Computer+Vision+%7C+NLP+%F0%9F%94%AC" alt="Typing SVG" />
+</a>
+
+<br><br>
 
 <!-- SOCIAL BADGES & METRICS HUB -->
-<br>
-
 <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
@@ -26,33 +28,35 @@
 <a href="https://github.com/Janlearns?tab=followers" target="_blank">
   <img src="https://img.shields.io/github/followers/Janlearns?label=Followers&style=for-the-badge&logo=github&color=9745F5&logoColor=white" alt="Followers" />
 </a>
-
-<br><br>
-
+&nbsp;
 <img src="https://komarev.com/ghpvc/?username=Janlearns&style=for-the-badge&color=9745F5&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
+
+<br>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## 🚀 &nbsp;About Me
 
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="220" />
-
-I am an aspiring **Machine Learning & AI Engineer**, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
-
-🤖 &nbsp;**Current Focus:** Deep Learning, Neural Architecture Design & Autonomous Agents
-
-🌱 &nbsp;**Core Competencies:** Data Preprocessing, Feature Engineering & Hyperparameter Optimization
-
-⚡ &nbsp;**Application:** Integrating ML/DL models into production-ready software systems
-
-🎯 &nbsp;**Vision:** Full-Stack Machine Learning Systems (Data Pipeline &rarr; Model &rarr; Deployment &rarr; Monitoring)
-
-💬 &nbsp;Open to collaborations and discussions on Artificial Intelligence and Data Science!
-
-<br clear="both">
+<table width="100%">
+  <tr>
+    <td width="72%" valign="top">
+      <p>I am an aspiring <b>Machine Learning &amp; AI Engineer</b>, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.</p>
+      <ul>
+        <li>🤖 &nbsp;<b>Current Focus:</b> Deep Learning, Neural Architecture Design &amp; Autonomous Agents</li>
+        <li>🌱 &nbsp;<b>Core Competencies:</b> Data Preprocessing, Feature Engineering &amp; Hyperparameter Optimization</li>
+        <li>⚡ &nbsp;<b>Application:</b> Integrating ML/DL models into production-ready software systems</li>
+        <li>🎯 &nbsp;<b>Vision:</b> Full-Stack Machine Learning Systems (Data Pipeline &rarr; Model &rarr; Deployment &rarr; Monitoring)</li>
+      </ul>
+      <p>💬 Open to collaborations and discussions on Artificial Intelligence and Data Science!</p>
+    </td>
+    <td width="28%" align="center" valign="middle">
+      <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="180" alt="Coding GIF" />
+    </td>
+  </tr>
+</table>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -91,22 +95,27 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 
 ## 📊 &nbsp;GitHub Analytics & Streak
 
+<table width="100%">
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Janlearns">
+        <img height="165" src="https://github-stats-extended.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&icon_color=9745F5&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/Janlearns">
+        <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+      </a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 <div align="center">
-
-<!-- OVERVIEW STATS & TOP LANGUAGES -->
-<a href="https://github.com/Janlearns">
-  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&icon_color=9745F5&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
-  &nbsp;&nbsp;
-  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
-</a>
-
-<br><br>
-
-<!-- STREAK STATS -->
-<a href="https://github.com/Janlearns">
-  <img src="https://streak-stats.demolab.com/?user=Janlearns&theme=tokyonight&hide_border=true&background=0D1117&stroke=9745F5&ring=9745F5&fire=FF6B6B&currStreakLabel=9745F5&sideLabels=9745F5&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak" />
-</a>
-
+  <a href="https://github.com/Janlearns">
+    <img width="100%" src="https://streak-stats.demolab.com/?user=Janlearns&theme=tokyonight&hide_border=true&background=0D1117&stroke=9745F5&ring=9745F5&fire=FF6B6B&currStreakLabel=9745F5&sideLabels=9745F5&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak" />
+  </a>
 </div>
 
 <!-- DIVIDER -->
@@ -114,22 +123,30 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 
 ## 📈 &nbsp;Developer Productivity Metrics
 
-<div align="center">
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Janlearns&theme=tokyonight" width="100%" alt="Profile Details" />
+    </td>
+    <td width="50%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Janlearns&theme=tokyonight" width="100%" alt="Commit & Repo Stats" />
+    </td>
+  </tr>
+</table>
 
-<!-- PROFILE SUMMARY CARDS GRID -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Janlearns&theme=tokyonight" width="48%" alt="Profile Details" />
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Janlearns&theme=tokyonight" width="48%" alt="Commit & Repo Stats" />
-
-<br><br>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Janlearns&theme=tokyonight" width="31%" alt="Repos per Language" />
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Janlearns&theme=tokyonight" width="31%" alt="Most Commit Language" />
-&nbsp;
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Janlearns&theme=tokyonight" width="31%" alt="Productive Time" />
-
-</div>
+<table width="100%">
+  <tr>
+    <td width="33.3%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Janlearns&theme=tokyonight" width="100%" alt="Repos per Language" />
+    </td>
+    <td width="33.3%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Janlearns&theme=tokyonight" width="100%" alt="Most Commit Language" />
+    </td>
+    <td width="33.3%" align="center">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Janlearns&theme=tokyonight" width="100%" alt="Productive Time" />
+    </td>
+  </tr>
+</table>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
@@ -139,17 +156,20 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <div align="center">
 
 <a href="https://janlearns.github.io/NPC_maze_project/">
-  <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
+  <img src="./img/Screenshot%202025-08-24%20002416.png" 
        alt="NPC Maze Solver — Click to Play!" 
-       width="85%"
-       style="border-radius: 14px;" />
+       width="85%" />
 </a>
 
 <br><br>
 
-**🎮 [Click Here to Launch Interactive Demo](https://janlearns.github.io/NPC_maze_project/)**
+<a href="https://janlearns.github.io/NPC_maze_project/">
+  <img src="https://img.shields.io/badge/%F0%9F%8E%AE_Launch_Interactive_Demo-9745F5?style=for-the-badge&logoColor=white" alt="Launch Demo" />
+</a>
 
 </div>
+
+<br>
 
 <p>
 <b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
@@ -190,7 +210,6 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-
 <!-- FOOTER -->
 <br>
 <div align="center">
@@ -198,3 +217,4 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <img src="https://capsule-render.vercel.app/api?type=waving&color=9745F5&height=120&section=footer" width="100%" />
 
 </div>
+
