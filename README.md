@@ -110,7 +110,10 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Janlearns&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5" alt="GitHub Trophies" />
+ <img
+    src="https://github-profile-trophy.vercel.app/?username=Janlearns&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5"
+    alt="GitHub Trophies"
+  />
 
 </div>
 
