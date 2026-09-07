@@ -1,14 +1,14 @@
 <div align="center">
 
-<!-- CAPSULE HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=9745F5&height=200&section=header&text=Rayzan%20Fazri%20Ramdany&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Engineer&descFontSize=20&descAlignY=62" width="100%" alt="Rayzan Header" />
+<!-- CUSTOM CYBERPUNK NEURAL HEADER BANNER -->
+<img src="./img/header-cyber-ai.svg" width="100%" alt="Rayzan Fazri Ramdany - ML & AI Engineer Banner" />
 
-<!-- TYPING ANIMATION -->
-<br>
+<br><br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Scalable+Intelligent+Solutions+%F0%9F%A7%A0;Deep+Learning+%7C+Computer+Vision+%7C+NLP+%F0%9F%94%AC)](https://git.io/typing-svg)
+<!-- TYPING SVG ANIMATION -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=25&duration=3500&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=70&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Scalable+Intelligent+Solutions+%F0%9F%A7%A0;Deep+Learning+%7C+Computer+Vision+%7C+NLP+%F0%9F%94%AC)](https://git.io/typing-svg)
 
-<!-- SOCIAL BADGES & METRICS -->
+<!-- SOCIAL BADGES & METRICS HUB -->
 <br>
 
 <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291" target="_blank">
@@ -42,50 +42,54 @@
 
 I am an aspiring **Machine Learning & AI Engineer**, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
 
-🤖 &nbsp;**Current Focus:** Deep Learning, Neural Architecture, and Autonomous Agents
+🤖 &nbsp;**Current Focus:** Deep Learning, Neural Architecture Design & Autonomous Agents
 
-🌱 &nbsp;**Core Skills:** Model Optimization, Data Engineering & Feature Analysis
+🌱 &nbsp;**Core Competencies:** Data Preprocessing, Feature Engineering & Hyperparameter Optimization
 
-⚡ &nbsp;**Application:** Deploying production-grade AI solutions
+⚡ &nbsp;**Application:** Integrating ML/DL models into production-ready software systems
 
-🎯 &nbsp;**Vision:** End-to-end Machine Learning Systems (Data Ingestion &rarr; Model &rarr; Deployment)
+🎯 &nbsp;**Vision:** Full-Stack Machine Learning Systems (Data Pipeline &rarr; Model &rarr; Deployment &rarr; Monitoring)
 
-💬 &nbsp;Open to discussions and collaborations on AI advancements!
+💬 &nbsp;Open to collaborations and discussions on Artificial Intelligence and Data Science!
 
 <br clear="both">
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🛠️ &nbsp;Tech Stack
+## ⚡ &nbsp;End-to-End ML Pipeline Architecture
+
+<div align="center">
+  <img src="./img/ai-workflow-pipeline.svg" width="100%" alt="AI ML End-to-End Pipeline Architecture" />
+</div>
+
+<!-- DIVIDER -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🛠️ &nbsp;Tech Stack & Technical Proficiency
 
 <div align="center">
 
-#### 🧠 Machine Learning & Deep Learning
+<img src="./img/tech-stack-visual.svg" width="100%" alt="Tech Stack Matrix & Framework Cards" />
+
+<br><br>
+
+#### ⚡ Quick Tech Stack Badges
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
 ![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-#### 📊 Data Processing & Visualization
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
-
-#### ⚡ Developer Ecosystem
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white)
 
 </div>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 &nbsp;GitHub Statistics & Overview
+## 📊 &nbsp;GitHub Analytics & Streak
 
 <div align="center">
 
@@ -108,7 +112,7 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📈 &nbsp;GitHub Analytics Dashboard
+## 📈 &nbsp;Developer Productivity Metrics
 
 <div align="center">
 
