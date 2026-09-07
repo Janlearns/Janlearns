@@ -1,14 +1,14 @@
 <div align="center">
 
-<!-- HEADER BANNER -->
-<img src="./img/github-header-banner.png" width="100%" alt="Rayzan - ML & AI Engineer" />
+<!-- CAPSULE HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=9745F5&height=200&section=header&text=Rayzan%20Fazri%20Ramdany&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Engineer&descFontSize=20&descAlignY=62" width="100%" alt="Rayzan Header" />
 
 <!-- TYPING ANIMATION -->
 <br>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&random=false&width=700&height=100&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Intelligent+Solutions+%F0%9F%A7%A0;Data+Science+%7C+Deep+Learning+%7C+NLP+%F0%9F%94%AC)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3500&pause=1000&color=9745F5&center=true&vCenter=true&multiline=true&repeat=true&width=750&height=80&lines=Machine+Learning+%26+AI+Engineer+%F0%9F%A4%96;Building+Scalable+Intelligent+Solutions+%F0%9F%A7%A0;Deep+Learning+%7C+Computer+Vision+%7C+NLP+%F0%9F%94%AC)](https://git.io/typing-svg)
 
-<!-- SOCIAL BADGES -->
+<!-- SOCIAL BADGES & METRICS -->
 <br>
 
 <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291" target="_blank">
@@ -22,6 +22,10 @@
 <a href="mailto:rayzanfazri@gmail.com" target="_blank">
   <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
 </a>
+&nbsp;
+<a href="https://github.com/Janlearns?tab=followers" target="_blank">
+  <img src="https://img.shields.io/github/followers/Janlearns?label=Followers&style=for-the-badge&logo=github&color=9745F5&logoColor=white" alt="Followers" />
+</a>
 
 <br><br>
 
@@ -32,44 +36,44 @@
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;About Me
+## 🚀 &nbsp;About Me
 
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230" />
+<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="220" />
 
 I am an aspiring **Machine Learning & AI Engineer**, passionate about transforming raw data into intelligent, scalable solutions. My focus lies in designing robust models, optimizing algorithms, and bridging the gap between theoretical AI and real-world impact.
 
-🔭 &nbsp;Currently advancing core competencies in **Machine Learning & Deep Learning**
+🤖 &nbsp;**Current Focus:** Deep Learning, Neural Architecture, and Autonomous Agents
 
-🌱 &nbsp;Mastering data preprocessing, feature engineering, and model optimization
+🌱 &nbsp;**Core Skills:** Model Optimization, Data Engineering & Feature Analysis
 
-⚡ &nbsp;Integrating AI models into production-ready applications
+⚡ &nbsp;**Application:** Deploying production-grade AI solutions
 
-🎯 &nbsp;**Vision:** Full-stack ML Engineer — from data ingestion to model deployment
+🎯 &nbsp;**Vision:** End-to-end Machine Learning Systems (Data Ingestion &rarr; Model &rarr; Deployment)
 
-💬 &nbsp;Open to collaborations and discussions on AI advancements
+💬 &nbsp;Open to discussions and collaborations on AI advancements!
 
 <br clear="both">
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25"> &nbsp;Tech Stack
+## 🛠️ &nbsp;Tech Stack
 
 <div align="center">
 
-#### 🧠 AI / ML / Data Science
+#### 🧠 Machine Learning & Deep Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=keras&logoColor=white)
-![scikit--learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Scikit--Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-#### 📊 Data & Visualization
+#### 📊 Data Processing & Visualization
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
 
-#### 🛠️ Tools & Platforms
+#### ⚡ Developer Ecosystem
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
@@ -81,39 +85,45 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 📊 &nbsp;GitHub Analytics
+## 📊 &nbsp;GitHub Statistics & Overview
 
 <div align="center">
 
+<!-- OVERVIEW STATS & TOP LANGUAGES -->
 <a href="https://github.com/Janlearns">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&icon_color=9745F5&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api?username=Janlearns&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&icon_color=9745F5&text_color=c9d1d9&count_private=true" alt="GitHub Stats" />
   &nbsp;&nbsp;
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
+  <img height="180em" src="https://github-stats-extended.vercel.app/api/top-langs/?username=Janlearns&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=9745F5&text_color=c9d1d9&langs_count=8" alt="Top Languages" />
 </a>
 
 <br><br>
 
 <!-- STREAK STATS -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Janlearns&theme=tokyonight&hide_border=true&background=0D1117&stroke=9745F5&ring=9745F5&fire=FF6B6B&currStreakLabel=9745F5&sideLabels=9745F5&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak" />
-
-<br><br>
-
-<!-- ACTIVITY GRAPH -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Janlearns&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=9745F5&line=9745F5&point=FF6B6B&area=true&area_color=9745F5" width="95%" alt="Activity Graph" />
+<a href="https://github.com/Janlearns">
+  <img src="https://streak-stats.demolab.com/?user=Janlearns&theme=tokyonight&hide_border=true&background=0D1117&stroke=9745F5&ring=9745F5&fire=FF6B6B&currStreakLabel=9745F5&sideLabels=9745F5&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=555555" alt="GitHub Streak" />
+</a>
 
 </div>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🏆 &nbsp;GitHub Trophies
+## 📈 &nbsp;GitHub Analytics Dashboard
 
 <div align="center">
 
- <img
-    src="https://github-profile-trophy.vercel.app/?username=Janlearns&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=5&margin-h=5"
-    alt="GitHub Trophies"
-  />
+<!-- PROFILE SUMMARY CARDS GRID -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Janlearns&theme=tokyonight" width="48%" alt="Profile Details" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Janlearns&theme=tokyonight" width="48%" alt="Commit & Repo Stats" />
+
+<br><br>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Janlearns&theme=tokyonight" width="31%" alt="Repos per Language" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Janlearns&theme=tokyonight" width="31%" alt="Most Commit Language" />
+&nbsp;
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Janlearns&theme=tokyonight" width="31%" alt="Productive Time" />
 
 </div>
 
@@ -128,12 +138,12 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
   <img src="https://github.com/Janlearns/Janlearns/blob/main/img/Screenshot%202025-08-24%20002416.png" 
        alt="NPC Maze Solver — Click to Play!" 
        width="85%"
-       style="border-radius: 12px;" />
+       style="border-radius: 14px;" />
 </a>
 
 <br><br>
 
-**🎮 [Click the image above to play!](https://janlearns.github.io/NPC_maze_project/)**
+**🎮 [Click Here to Launch Interactive Demo](https://janlearns.github.io/NPC_maze_project/)**
 
 </div>
 
@@ -141,7 +151,7 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <b>NPC Maze Solver</b> demonstrates an AI agent capable of autonomous pathfinding. The agent explores the environment, analyzes potential routes, and optimizes for the most efficient path to escape the maze.
 </p>
 
-### 🧠 Neural Core
+#### 🧠 Neural Core Architecture
 
 <div align="center">
   <img src="./img/neural-network-html-faithful.svg" width="90%" alt="Neural Network Architecture" />
@@ -151,14 +161,14 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 
 <div align="center">
 
-👉 &nbsp;Explore the full implementation in the **[repository](https://github.com/Janlearns/MiniProject)**
+👉 &nbsp;Explore implementation code in the **[MiniProject Repository](https://github.com/Janlearns/MiniProject)**
 
 </div>
 
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 🐍 &nbsp;Contribution Graphs
+## 🐍 &nbsp;Contribution Animations
 
 <div align="center">
 
@@ -166,7 +176,7 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" width="100%" />
+  <img alt="Snake contribution animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake.svg" width="100%" />
 </picture>
 
 <br><br>
@@ -175,7 +185,7 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" />
-  <img alt="Pacman animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" width="100%" />
+  <img alt="Pacman contribution animation" src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/pacman-contribution-graph.svg" width="100%" />
 </picture>
 
 </div>
@@ -183,7 +193,7 @@ I am an aspiring **Machine Learning & AI Engineer**, passionate about transformi
 <!-- DIVIDER -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## 💡 &nbsp;Random Dev Quote
+## 💡 &nbsp;Developer Quote
 
 <div align="center">
 
