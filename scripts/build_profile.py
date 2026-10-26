@@ -78,9 +78,9 @@ im,d=new(288)
 txt(d,28,20,'01 / TOOLKIT',18,LIME,'consolab')
 txt(d,718,23,'THE THINGS ON MY WORKBENCH',14,MUTED)
 for x,num,title,items,color in [
-    (28,'A','DATA',['Python / pandas','NumPy','Preprocessing'],LIME),
-    (376,'B','MODELS',['PyTorch / TensorFlow','Keras / scikit-learn','Model evaluation'],BLUE),
-    (724,'C','EXPERIMENTS',['Computer vision / NLP','Autonomous agents','Git / iteration'],ORANGE)]:
+    (28,'A','DATA',['Python / pandas / NumPy','Preprocessing / EDA','OCR / PDF ingestion'],LIME),
+    (376,'B','MODELS',['PyTorch / TensorFlow','HF Transformers / BERT','LoRA / QLoRA fine-tuning'],BLUE),
+    (724,'C','APPLICATIONS',['RAG / LangChain / Ollama','Streamlit / desktop apps','Git / GitHub Actions'],ORANGE)]:
     box(d,(x,63,x+328,262),PANEL,EDGE)
     box(d,(x,63,x+5,262),color)
     txt(d,x+20,80,num,15,color,'consolab')
