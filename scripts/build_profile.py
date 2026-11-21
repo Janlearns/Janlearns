@@ -1,142 +1,244 @@
-"""Generate the profile's original arcade / engineering artwork with Pillow."""
-from pathlib import Path
+"""Generate the profile artwork with Pillow.
+
+Style: white editorial layout, oversized black grotesk type, a few playful
+flat shapes. Typeface is Inter Tight (SIL OFL, see scripts/fonts/OFL.txt).
+Run: python scripts/build_profile.py
+"""
 from collections import deque
+from functools import lru_cache
+from pathlib import Path
+
 from PIL import Image, ImageDraw, ImageFont
 
 ROOT = Path(__file__).resolve().parents[1]
-BG, PANEL, EDGE = '#101820', '#19252F', '#334450'
-WHITE, MUTED, LIME, BLUE, ORANGE = '#F3F1E7', '#ACBBC5', '#D5F56A', '#89C9F0', '#FF936B'
-S = 2
+FONT = Path(__file__).resolve().parent / 'fonts' / 'InterTight.ttf'
 
-def new(h):
-    im = Image.new('RGB', (1080*S,h*S), BG)
+PAPER, INK, GREY, RULE = '#FFFFFF', '#111111', '#8C8C8C', '#E6E6E6'
+YELLOW, BLUE, PINK, GREEN, CREAM = '#FFD43B', '#3B5BFF', '#FF9EC4', '#1FC48F', '#F3EFE6'
+S = 2  # render at 2x, GitHub scales it down
+
+
+@lru_cache(None)
+def font(size, weight='Bold'):
+    f = ImageFont.truetype(str(FONT), int(size * S))
+    f.set_variation_by_name(weight)
+    return f
+
+
+def canvas(w, h, bg=PAPER):
+    im = Image.new('RGBA', (w * S, h * S), bg)
     return im, ImageDraw.Draw(im)
 
-def box(d, coords, fill, outline=None, width=1):
-    d.rectangle(tuple(int(v*S) for v in coords),fill=fill,outline=outline,width=width*S)
 
-def line(d, pts, color=EDGE, width=1):
-    d.line([(int(x*S),int(y*S)) for x,y in pts],fill=color,width=width*S)
+def sc(*v):
+    return tuple(int(x * S) for x in v)
 
-def txt(d,x,y,s,size=16,color=WHITE,face='consola'):
-    f=ImageFont.truetype('C:/Windows/Fonts/'+face+'.ttf',size*S)
-    d.text((x*S,y*S),s,font=f,fill=color)
 
-def dot(d,x,y,r,color):
-    d.ellipse(((x-r)*S,(y-r)*S,(x+r)*S,(y+r)*S),fill=color)
+def text(d, x, y, s, size, weight='Bold', fill=INK, anchor='la'):
+    d.text(sc(x, y), s, font=font(size, weight), fill=fill, anchor=anchor)
 
-def chip(d,x,y,label,color=LIME):
-    w=len(label)*9+24
-    box(d,(x,y,x+w,y+30),color)
-    txt(d,x+12,y+6,label,14,BG,'consolab')
-    return w
 
-def grid(d,w,h):
-    for x in range(0,w,30): line(d,[(x,0),(x,h)],'#192630')
-    for y in range(0,h,30): line(d,[(0,y),(w,y)],'#192630')
+def width(d, s, size, weight='Bold'):
+    return d.textlength(s, font=font(size, weight)) / S
 
-im,d=new(560)
-grid(d,1080,560)
-box(d,(24,24,1056,62),LIME)
-txt(d,38,33,'JANLEARNS / PERSONAL LAB',15,BG,'consolab')
-txt(d,761,33,'BUILD. BREAK. LEARN. REPEAT.',14,BG,'consolab')
-# Oversized handle makes the profile recognisable at a glance.
-txt(d,33,77,'JAN',125,WHITE,'impact')
-txt(d,29,207,'LEARNS',125,LIME,'impact')
-box(d,(40,365,90,371),ORANGE)
-txt(d,40,393,'Rayzan Fazri Ramdany',25,WHITE,'arialbd')
-txt(d,40,435,'Aspiring ML & AI engineer.',18,MUTED)
-chip(d,40,478,'PYTHON')
-chip(d,132,478,'DEEP LEARNING',BLUE)
-chip(d,287,478,'AGENTS',ORANGE)
-# Workstation window with a small, explicitly illustrative neural graph.
-box(d,(611,91,1036,435),PANEL,EDGE)
-box(d,(611,91,1036,129),'#243440')
-for x,c in [(628,ORANGE),(645,LIME),(662,BLUE)]: dot(d,x,110,4,c)
-txt(d,690,101,'experiment_01.py',13,MUTED)
-txt(d,632,147,'> while curious:',17,LIME)
-txt(d,652,177,'learn()',17,WHITE)
-txt(d,652,207,'build()',17,WHITE)
-txt(d,652,237,'try_again()',17,BLUE)
-xs=[666,763,860,985]
-ys=[[304,344,384],[292,322,352,382],[307,347,387],[326,366]]
-for i in range(3):
-    for y1 in ys[i]:
-        for y2 in ys[i+1]: line(d,[(xs[i],y1),(xs[i+1],y2)],'#3A505D')
-for i,x in enumerate(xs):
-    for y in ys[i]:
-        dot(d,x,y,7,BG)
-        dot(d,x,y,4,LIME if i in (0,3) else BLUE)
-box(d,(611,451,1036,509),BLUE)
-txt(d,628,461,'CURRENT EXPLORATIONS /',15,BG,'consolab')
-txt(d,628,482,'VISION, LANGUAGE & AGENTS',15,BG,'consolab')
-line(d,[(24,536),(1056,536)],EDGE)
-im.save(ROOT/'img/profile-cover.png',optimize=True)
 
-# Tool shelf: labels, not invented scores or proficiency bars.
-im,d=new(288)
-txt(d,28,20,'01 / TOOLKIT',18,LIME,'consolab')
-txt(d,718,23,'THE THINGS ON MY WORKBENCH',14,MUTED)
-for x,num,title,items,color in [
-    (28,'A','DATA',['Python / pandas / NumPy','Preprocessing / EDA','OCR / PDF ingestion'],LIME),
-    (376,'B','MODELS',['PyTorch / TensorFlow','HF Transformers / BERT','LoRA / QLoRA fine-tuning'],BLUE),
-    (724,'C','APPLICATIONS',['RAG / LangChain / Ollama','Streamlit / desktop apps','Git / GitHub Actions'],ORANGE)]:
-    box(d,(x,63,x+328,262),PANEL,EDGE)
-    box(d,(x,63,x+5,262),color)
-    txt(d,x+20,80,num,15,color,'consolab')
-    txt(d,x+54,77,title,23,WHITE,'arialbd')
-    line(d,[(x+20,118),(x+308,118)])
-    for i,item in enumerate(items): txt(d,x+20,138+i*34,item,17,MUTED)
-im.save(ROOT/'img/toolkit.png',optimize=True)
+def circle(d, x, y, r, fill):
+    d.ellipse(sc(x - r, y - r, x + r, y + r), fill=fill)
 
-# Maze study, animated locally; no remote image service is required.
-walls={(2,0),(4,0),(8,0),(5,1),(7,1),(1,2),(2,2),(4,2),(6,2),(9,2),
-       (0,3),(4,3),(6,3),(9,3),(3,4),(4,4),(5,4),(8,4),(0,5),(5,5),
-       (3,6),(7,6),(1,7),(3,7),(4,7),(5,7),(6,7),(7,7),(8,7),
-       (4,8),(6,8),(1,9),(3,9),(4,9)}
-queue=deque([[(0,0)]])
-seen={(0,0)}
+
+def rrect(d, box, r, fill, outline=None, w=0):
+    d.rounded_rectangle(sc(*box), radius=r * S, fill=fill, outline=outline, width=w * S)
+
+
+def smiley(d, x, y, r, fill=YELLOW):
+    circle(d, x, y, r, fill)
+    e = r * 0.32
+    circle(d, x - e, y - r * 0.18, r * 0.09, INK)
+    circle(d, x + e, y - r * 0.18, r * 0.09, INK)
+    d.arc(sc(x - r * 0.45, y - r * 0.35, x + r * 0.45, y + r * 0.5), 20, 160,
+          fill=INK, width=int(r * 0.09 * S))
+
+
+def pill(im, cx, cy, w, h, angle, fill):
+    """Rotated capsule pasted onto im."""
+    layer = Image.new('RGBA', (int(w * S), int(h * S)), (0, 0, 0, 0))
+    ImageDraw.Draw(layer).rounded_rectangle((0, 0, w * S - 1, h * S - 1), radius=h * S / 2, fill=fill)
+    layer = layer.rotate(angle, expand=True, resample=Image.Resampling.BICUBIC)
+    im.alpha_composite(layer, (int(cx * S - layer.width / 2), int(cy * S - layer.height / 2)))
+
+
+def save(im, name, radius=28):
+    """Round the corners so the white cards also sit well on GitHub dark mode."""
+    mask = Image.new('L', im.size, 0)
+    ImageDraw.Draw(mask).rounded_rectangle((0, 0, im.width - 1, im.height - 1), radius=radius * S, fill=255)
+    im.putalpha(mask)
+    im.save(ROOT / 'img' / name, optimize=True)
+
+
+# ---------------------------------------------------------------- cover
+im, d = canvas(1080, 600)
+text(d, 48, 44, 'Janlearns', 24)
+text(d, 1032, 47, 'Rayzan Fazri Ramdany  —  Cimahi, Indonesia', 17, 'Medium', GREY, 'ra')
+for i, line in enumerate(['Teaching machines', 'to read Indonesian', '(and to reason a bit).']):
+    text(d, 44, 118 + i * 92, line, 86, 'Bold')
+# playful corner: a sun that watches, a capsule, a dot
+pill(im, 770, 500, 210, 70, 28, BLUE)
+smiley(d, 962, 448, 84)
+circle(d, 990, 128, 20, PINK)
+d.line(sc(48, 512, 600, 512), fill=RULE, width=2 * S)
+text(d, 48, 536, 'Machine learning  ·  NLP  ·  LLM fine-tuning  ·  RAG', 20, 'Regular', GREY)
+save(im, 'profile-cover.png')
+
+
+# ---------------------------------------------------------------- toolkit
+im, d = canvas(1080, 470)
+text(d, 48, 40, 'Toolkit', 20, 'SemiBold', GREY)
+text(d, 1032, 40, 'What I reach for, not a skill meter', 17, 'Regular', GREY, 'ra')
+rows = [('Data', 'Python, pandas, NumPy  ·  Preprocessing, EDA  ·  OCR, PDF ingestion', YELLOW),
+        ('Models', 'PyTorch, TensorFlow  ·  HF Transformers, BERT  ·  LoRA / QLoRA', BLUE),
+        ('Apps', 'RAG, LangChain, Ollama  ·  Streamlit, desktop  ·  GitHub Actions', PINK)]
+for i, (label, items, c) in enumerate(rows):
+    y = 92 + i * 122
+    d.line(sc(48, y, 1032, y), fill=RULE, width=2 * S)
+    text(d, 48, y + 26, f'0{i + 1}', 16, 'Medium', GREY)
+    text(d, 104, y + 14, label, 62, 'Bold')
+    circle(d, 104 + width(d, label, 62) + 22, y + 66, 10, c)
+    text(d, 1032, y + 52, items, 19, 'Regular', INK, 'ra')
+d.line(sc(48, 458, 1032, 458), fill=RULE, width=2 * S)
+save(im, 'toolkit.png')
+
+
+# ---------------------------------------------------------------- project cards
+CW, CH, TH = 860, 720, 560  # card width/height, thumbnail height
+
+
+def card(name, title, tags, bg, draw_art):
+    im, d = canvas(CW, CH)
+    rrect(d, (0, 0, CW, TH), 28, bg)
+    draw_art(im, d)
+    text(d, 8, TH + 40, title, 50, 'Bold')
+    text(d, 8, TH + 116, tags, 26, 'Regular', GREY)
+    save(im, name)
+
+
+def art_cekfakta(im, d):
+    # a claim card being checked by a magnifier
+    rrect(d, (150, 120, 610, 440), 24, PAPER)
+    for i, w in enumerate([360, 300, 380, 220]):
+        rrect(d, (195, 170 + i * 58, 195 + w, 196 + i * 58), 13, RULE)
+    rrect(d, (195, 228, 495, 254), 13, INK)
+    circle(d, 620, 330, 118, INK)
+    circle(d, 620, 330, 88, YELLOW)
+    d.line(sc(705, 415, 790, 500), fill=INK, width=34 * S)
+    d.line(sc(578, 334, 610, 366, 668, 296), fill=INK, width=16 * S, joint='curve')
+
+
+def art_contextflow(im, d):
+    # a stack of documents flowing into a small model
+    for i in range(3):
+        rrect(d, (120 + i * 26, 130 + i * 26, 360 + i * 26, 430 + i * 26), 20,
+              PAPER, INK, 4)
+    for i in range(4):
+        rrect(d, (200, 230 + i * 44, 360, 250 + i * 44), 10, RULE)
+    for k in range(4):
+        circle(d, 460 + k * 42, 300, 8 + k * 2, INK)
+    smiley(d, 700, 300, 92, YELLOW)
+
+
+def art_ner(im, d):
+    # a sentence where some words carry entity tags
+    words = [('Rayzan', 'PER', YELLOW), ('kuliah', None, None), ('di', None, None),
+             ('Cimahi', 'LOC', GREEN), ('sejak', None, None), ('2022', 'TIME', PAPER)]
+    x, y = 80, 200
+    for w, tag, c in words:
+        ww = width(d, w, 46, 'SemiBold') + 52
+        if x + ww > CW - 80:
+            x, y = 80, y + 150
+        rrect(d, (x, y, x + ww, y + 80), 40, c or '#FFC2DA', INK if c else None, 4 if c else 0)
+        text(d, x + ww / 2, y + 40, w, 46, 'SemiBold', INK, 'mm')
+        if tag:
+            text(d, x + 10, y - 40, tag, 22, 'Bold', INK)
+        x += ww + 22
+
+
+def art_rag(im, d):
+    # papers on the left, a cited answer bubble on the right
+    for i in range(3):
+        rrect(d, (90 + i * 30, 150 + i * 28, 280 + i * 30, 400 + i * 28), 14, PAPER, INK, 4)
+    for i, w in enumerate([120, 90, 130, 70]):
+        rrect(d, (175, 250 + i * 34, 175 + w, 264 + i * 34), 7, RULE)
+    rrect(d, (175, 284, 275, 298), 7, YELLOW)
+    for k in range(3):
+        circle(d, 372 + k * 30, 290, 7, INK)
+    d.polygon([sc(500, 374), sc(480, 450), sc(596, 374)], fill=PAPER, outline=INK, width=4 * S)
+    rrect(d, (460, 150, 790, 380), 34, PAPER, INK, 4)
+    d.line(sc(505, 378, 580, 378), fill=PAPER, width=5 * S)
+    for i, w in enumerate([250, 210, 140]):
+        rrect(d, (500, 195 + i * 50, 500 + w, 217 + i * 50), 11, RULE)
+    rrect(d, (660, 295, 750, 327), 16, YELLOW)
+    text(d, 705, 311, '[1]', 20, 'Bold', INK, 'mm')
+
+
+card('work-cekfakta.png', 'CekFakta', 'NLP  ·  OCR  ·  Browser extension', YELLOW, art_cekfakta)
+card('work-contextflow.png', 'ContextFlow AI', 'LLM fine-tuning  ·  LoRA  ·  Supabase', BLUE, art_contextflow)
+card('work-ner.png', 'NER for Indonesian', 'Token classification  ·  BERT', PINK, art_ner)
+card('work-rag.png', 'Poverty RAG Chatbot', 'RAG  ·  Vector DB  ·  LLM', GREEN, art_rag)
+
+
+# ---------------------------------------------------------------- maze study
+walls = {(2, 0), (4, 0), (8, 0), (5, 1), (7, 1), (1, 2), (2, 2), (4, 2), (6, 2), (9, 2),
+         (0, 3), (4, 3), (6, 3), (9, 3), (3, 4), (4, 4), (5, 4), (8, 4), (0, 5), (5, 5),
+         (3, 6), (7, 6), (1, 7), (3, 7), (4, 7), (5, 7), (6, 7), (7, 7), (8, 7),
+         (4, 8), (6, 8), (1, 9), (3, 9), (4, 9)}
+queue, seen = deque([[(0, 0)]]), {(0, 0)}
 while queue:
-    route=queue.popleft()
-    if route[-1]==(9,9): break
-    x,y=route[-1]
-    for p in [(x+1,y),(x,y+1),(x-1,y),(x,y-1)]:
-        if 0<=p[0]<10 and 0<=p[1]<10 and p not in walls and p not in seen:
+    route = queue.popleft()
+    if route[-1] == (9, 9):
+        break
+    x, y = route[-1]
+    for p in [(x + 1, y), (x, y + 1), (x - 1, y), (x, y - 1)]:
+        if 0 <= p[0] < 10 and 0 <= p[1] < 10 and p not in walls and p not in seen:
             seen.add(p)
-            queue.append(route+[p])
-assert route[-1]==(9,9)
-im,d=new(410)
-box(d,(24,20,1056,58),ORANGE)
-txt(d,38,29,'02 / PROJECT SPOTLIGHT',15,BG,'consolab')
-txt(d,819,29,'PATHFINDING LAB',15,BG,'consolab')
-txt(d,37,84,'NPC MAZE',62,WHITE,'impact')
-txt(d,37,153,'SOLVER',62,BLUE,'impact')
-txt(d,40,237,'A small maze. A learning agent.',18,MUTED)
-txt(d,40,266,'One experiment at a time.',18,MUTED)
-chip(d,40,317,'OPEN THE DEMO >',LIME)
-txt(d,40,375,'PATHFINDING / AGENTS / EXPERIMENTS',13,MUTED)
-x0,y0,step=711,86,28
+            queue.append(route + [p])
+assert route[-1] == (9, 9)
+
+im, d = canvas(1080, 440, CREAM)
+text(d, 48, 44, 'Lab', 20, 'SemiBold', GREY)
+text(d, 44, 92, 'NPC Maze', 78)
+text(d, 44, 178, 'Solver', 78)
+text(d, 48, 286, 'A small maze, a learning agent,', 21, 'Regular')
+text(d, 48, 316, 'and a lot of attempts.', 21, 'Regular')
+rrect(d, (48, 362, 268, 410), 24, INK)
+text(d, 158, 386, 'Open the demo  →', 19, 'SemiBold', PAPER, 'mm')
+x0, y0, step = 660, 40, 36
 for row in range(10):
     for col in range(10):
-        x,y=x0+col*step,y0+row*step
-        box(d,(x,y,x+25,y+25), '#527386' if (col,row) in walls else PANEL)
-txt(d,711,378,'ILLUSTRATED ROUTE / 10 x 10',12,MUTED)
-frames=[]
-for n in range(1,len(route)+1):
-    frame=im.copy(); fd=ImageDraw.Draw(frame)
-    pts=[(x0+x*step+12,y0+y*step+12) for x,y in route[:n]]
-    if len(pts)>1: line(fd,pts,LIME,4)
-    x,y=pts[-1]
-    box(fd,(x-6,y-6,x+6,y+6),LIME)
-    dot(fd,x0+9*step+12,y0+9*step+12,4,ORANGE)
-    frames.append(frame.resize((1080,410),Image.Resampling.LANCZOS))
-frames[-1].save(ROOT/'img/maze-study.png',optimize=True)
-frames[0].save(ROOT/'img/maze-study.gif',save_all=True,append_images=frames[1:],
-               duration=[90]*(len(frames)-1)+[1800],loop=0,optimize=True,disposal=2)
+        x, y = x0 + col * step, y0 + row * step
+        rrect(d, (x + 2, y + 2, x + step - 2, y + step - 2), 7,
+              INK if (col, row) in walls else PAPER)
+frames = []
+for n in range(1, len(route) + 1):
+    f = im.copy()
+    fd = ImageDraw.Draw(f)
+    pts = [sc(x0 + x * step + step / 2, y0 + y * step + step / 2) for x, y in route[:n]]
+    if len(pts) > 1:
+        fd.line(pts, fill=BLUE, width=8 * S, joint='curve')
+    gx, gy = x0 + 9 * step + step / 2, y0 + 9 * step + step / 2
+    circle(fd, gx, gy, 9, PINK)
+    ax, ay = route[n - 1]
+    smiley(fd, x0 + ax * step + step / 2, y0 + ay * step + step / 2, 15)
+    frames.append(f.resize((1080, 440), Image.Resampling.LANCZOS).convert('RGB'))
+frames[-1].save(ROOT / 'img/maze-study.png', optimize=True)
+frames[0].save(ROOT / 'img/maze-study.gif', save_all=True, append_images=frames[1:],
+               duration=[90] * (len(frames) - 1) + [1800], loop=0, optimize=True, disposal=2)
 
-im,d=new(100)
-box(d,(24,15,1056,85),LIME)
-txt(d,42,31,'GOT AN IDEA?',30,BG,'impact')
-txt(d,287,40,"LET'S BUILD SOMETHING TOGETHER.",19,BG,'consolab')
-txt(d,932,38,'SAY HI >',16,BG,'consolab')
-im.save(ROOT/'img/contact.png',optimize=True)
+
+# ---------------------------------------------------------------- contact
+im, d = canvas(1080, 330)
+text(d, 48, 48, 'Want to collaborate?', 26, 'Medium', GREY)
+text(d, 44, 92, 'rayzanfazri@gmail.com', 72)
+d.line(sc(48, 190, 48 + width(d, 'rayzanfazri@gmail.com', 72), 190), fill=INK, width=5 * S)
+text(d, 48, 248, 'Want to say hi?  LinkedIn  ·  Instagram  ·  GitHub', 21, 'Regular', GREY)
+smiley(d, 960, 230, 62)
+pill(im, 1010, 96, 110, 40, -30, PINK)
+save(im, 'contact.png')

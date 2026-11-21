@@ -1,120 +1,91 @@
-﻿<img src="./img/profile-cover.png" width="100%" alt="JANLEARNS — Rayzan Fazri Ramdany. Aspiring ML and AI engineer. Build, break, learn, repeat." />
+﻿<img src="./img/profile-cover.png" width="100%" alt="Janlearns — Rayzan Fazri Ramdany, Cimahi, Indonesia. Teaching machines to read Indonesian (and to reason a bit). Machine learning, NLP, LLM fine-tuning, RAG." />
 
 <p align="center">
-  <a href="https://janlearns.github.io/Portofolio/"><b>PORTFOLIO ↗</b></a> &nbsp; &nbsp; / &nbsp; &nbsp;
-  <a href="mailto:rayzanfazri@gmail.com"><b>EMAIL ↗</b></a> &nbsp; &nbsp; / &nbsp; &nbsp;
-  <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291"><b>LINKEDIN ↗</b></a> &nbsp; &nbsp; / &nbsp; &nbsp;
-  <a href="https://www.instagram.com/rayzan3_0"><b>INSTAGRAM ↗</b></a>
+  <a href="#selected-work">Work</a> &nbsp;·&nbsp;
+  <a href="https://janlearns.github.io/Portofolio/">Portfolio ↗</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291">LinkedIn ↗</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/rayzan3_0">Instagram ↗</a> &nbsp;·&nbsp;
+  <a href="mailto:rayzanfazri@gmail.com">Email</a>
 </p>
-
-### Hey, I'm Rayzan 👋
-
-Informatics student at [Universitas Jenderal Achmad Yani](https://www.unjani.ac.id/), Cimahi, and alumni of the Data Science & Machine Learning bootcamp at [dibimbing.id](https://dibimbing.id/). I build machine learning systems end to end, from cleaning the data to putting the model inside something people can actually click on. Lately most of that has been **NLP for Indonesian text, fine-tuning small LLMs, and retrieval-augmented apps**.
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**↳ Currently exploring**
-
-Fact-checking with transformers, LoRA fine-tuning on a budget GPU, and making RAG answers cite where they came from.
-
-</td>
-<td width="50%" valign="top">
-
-**↳ Working toward**
-
-Connecting the pieces: data → training → evaluation → a usable application.
-
-</td>
-</tr>
-</table>
-
-<img src="./img/toolkit.png" width="100%" alt="Toolkit. Data: Python, pandas, NumPy, preprocessing, EDA, OCR and PDF ingestion. Models: PyTorch, TensorFlow, Hugging Face Transformers, BERT, LoRA and QLoRA fine-tuning. Applications: RAG, LangChain, Ollama, Streamlit, desktop apps, Git and GitHub Actions." />
 
 <br>
 
-### Selected work
+Hi, I'm Rayzan. Informatics student at [Universitas Jenderal Achmad Yani](https://www.unjani.ac.id/) and alumni of the Data Science & Machine Learning bootcamp at [dibimbing.id](https://dibimbing.id/). I build machine learning systems end to end, from cleaning the data to putting the model inside something people can actually click on.
+
+**Right now:** fact-checking with transformers, LoRA fine-tuning on a budget GPU, and making RAG answers cite where they came from.
+
+<br>
+
+<img src="./img/toolkit.png" width="100%" alt="Toolkit. 01 Data: Python, pandas, NumPy, preprocessing, EDA, OCR and PDF ingestion. 02 Models: PyTorch, TensorFlow, Hugging Face Transformers, BERT, LoRA and QLoRA. 03 Apps: RAG, LangChain, Ollama, Streamlit, desktop apps, GitHub Actions." />
+
+<br><br>
+
+## Selected work
 
 <table>
 <tr>
 <td width="50%" valign="top">
-
-<sub><code>NLP · OCR · BROWSER EXTENSION</code></sub>
-
-**[CekFakta ↗](https://github.com/Janlearns/Information-_detection)**
-
-Paste a claim, get back the sources that support or contradict it. Searches the web, extracts articles, runs OCR on images, and checks claim–evidence pairs with a transformer. Ships as a Windows app and a browser extension. Still a prototype, and the README says so.
-
+<a href="https://github.com/Janlearns/Information-_detection"><img src="./img/work-cekfakta.png" width="100%" alt="CekFakta — NLP, OCR, browser extension. Illustration of a claim being checked with a magnifier." /></a>
+<br>
+Paste a claim, get back the sources that support or contradict it. Searches the web, runs OCR on images, and checks claim–evidence pairs with a transformer. Ships as a Windows app and a browser extension. Still a prototype, and the README says so.
 </td>
 <td width="50%" valign="top">
-
-<sub><code>LLM FINE-TUNING · LORA · SUPABASE</code></sub>
-
-**[ContextFlow AI ↗](https://github.com/Janlearns/contextflow_ai_fine_tuning)**
-
-An internal-knowledge assistant built on TinyLlama 1.1B, fine-tuned with LoRA/QLoRA on SOP and HR-policy style documents. Includes BLEU/ROUGE evaluation, chat logging in Supabase, and CI with GitHub Actions.
-
+<a href="https://github.com/Janlearns/contextflow_ai_fine_tuning"><img src="./img/work-contextflow.png" width="100%" alt="ContextFlow AI — LLM fine-tuning, LoRA, Supabase. Illustration of documents flowing into a small model." /></a>
+<br>
+An internal-knowledge assistant on TinyLlama 1.1B, fine-tuned with LoRA/QLoRA on SOP and HR-policy style documents. BLEU/ROUGE evaluation, chat logs in Supabase, CI with GitHub Actions.
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
-
-<sub><code>TOKEN CLASSIFICATION · BERT</code></sub>
-
-**[NER for Indonesian ↗](https://github.com/Janlearns/NER_indonesia)**
-
-Fine-tunes `bert-base-multilingual-cased` to tag people, organizations, locations, time, and quantities in Indonesian sentences, using the [IndoLEM](https://github.com/indolem/indolem) NER data. Keeps the checkpoint with the best validation F1.
-
+<a href="https://github.com/Janlearns/NER_indonesia"><img src="./img/work-ner.png" width="100%" alt="NER for Indonesian — token classification, BERT. Illustration of an Indonesian sentence with person, location and time tags." /></a>
+<br>
+Fine-tunes <code>bert-base-multilingual-cased</code> to tag people, organizations, locations, time, and quantities in Indonesian sentences, trained on the <a href="https://github.com/indolem/indolem">IndoLEM</a> NER data.
 </td>
 <td width="50%" valign="top">
-
-<sub><code>RAG · VECTOR DB · LLM</code></sub>
-
-**[Poverty RAG Chatbot ↗](https://github.com/Janlearns/RAG_untuk_tingkat_kemiskinan_di_indonesia)**
-
+<a href="https://github.com/Janlearns/RAG_untuk_tingkat_kemiskinan_di_indonesia"><img src="./img/work-rag.png" width="100%" alt="Poverty RAG Chatbot — RAG, vector DB, LLM. Illustration of papers feeding an answer with a citation." /></a>
+<br>
 Answers questions about the socio-economic and environmental drivers of poverty in Indonesia. Retrieval is restricted to a curated set of academic papers, which keeps the model from making things up.
-
 </td>
 </tr>
 </table>
 
-<sub>Also on the bench: [a fashion stylist chatbot](https://github.com/Janlearns/Chatbot_outfit_langchain) (LangChain + Ollama over a PDF catalog) · [SmartSplit Bill AI](https://github.com/Janlearns/SmartSplit_Bill_AI) (Gemini reads a receipt and splits it) · [TokenScope](https://github.com/Janlearns/TokenScope) (token and context-window experiments on Groq) · [all repositories →](https://github.com/Janlearns?tab=repositories)</sub>
+<sub>Also on the bench: [a fashion stylist chatbot](https://github.com/Janlearns/Chatbot_outfit_langchain) (LangChain + Ollama over a PDF catalog) · [SmartSplit Bill AI](https://github.com/Janlearns/SmartSplit_Bill_AI) (Gemini reads a receipt and splits it) · [TokenScope](https://github.com/Janlearns/TokenScope) (token and context-window experiments on Groq)</sub>
+
+**[View all projects →](https://github.com/Janlearns?tab=repositories)**
 
 <br>
 
 <a href="https://janlearns.github.io/NPC_maze_project/">
-  <img src="./img/maze-study.gif" width="100%" alt="NPC Maze Solver — animated illustration of a route through a maze. Click to open the interactive demo." />
+  <img src="./img/maze-study.gif" width="100%" alt="NPC Maze Solver — a small maze, a learning agent, and a lot of attempts. Animated route through a maze. Click to open the interactive demo." />
 </a>
 
-### A maze, an agent, and a lot of attempts.
-
-**NPC Maze Solver** is a small environment for exploring how an agent learns to navigate. Start a run and follow its reward, step count, and progress across episodes.
-
-**[▶ Play with the demo](https://janlearns.github.io/NPC_maze_project/)** &nbsp; &nbsp; **[↗ Source code](https://github.com/Janlearns/NPC_maze_project)**
+<p>
+  <a href="https://janlearns.github.io/NPC_maze_project/"><b>Play with the demo ↗</b></a> &nbsp;·&nbsp;
+  <a href="https://github.com/Janlearns/NPC_maze_project">Source code</a>
+</p>
 
 <details>
-<summary><b>＋ Take a look inside the application</b></summary>
+<summary>Take a look inside the application</summary>
 <br>
 <img src="./img/Screenshot%202025-08-24%20002416.png" width="100%" alt="NPC Maze Solver application with a maze, episode metrics, learning statistics and Start Learning button." />
 </details>
 
 <br>
 
-### Commit history, eaten daily
+## Commit history, eaten daily
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake-light.svg" />
-  <img src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake-dark.svg" width="100%" alt="Snake animation moving through Rayzan's GitHub contribution graph." />
+  <img src="https://raw.githubusercontent.com/Janlearns/Janlearns/output/snake-light.svg" width="100%" alt="Snake animation moving through Rayzan's GitHub contribution graph." />
 </picture>
 
-<sub>Generated from my real contribution graph by [Platane/snk](https://github.com/Platane/snk), redrawn twice a day by a GitHub Action in this repo.</sub>
+<sub>Drawn from my real contribution graph by [Platane/snk](https://github.com/Platane/snk), redrawn twice a day by a GitHub Action in this repo.</sub>
 
 <br><br>
 
 <details>
-<summary><b>＋ Standing on these shoulders</b></summary>
+<summary>Standing on these shoulders</summary>
 <br>
 
 Open work that my projects lean on directly:
@@ -130,7 +101,15 @@ Open work that my projects lean on directly:
 <br>
 
 <a href="mailto:rayzanfazri@gmail.com">
-  <img src="./img/contact.png" width="100%" alt="Got an idea? Let's build something together. Email Rayzan." />
+  <img src="./img/contact.png" width="100%" alt="Want to collaborate? rayzanfazri@gmail.com. Want to say hi? LinkedIn, Instagram, GitHub." />
 </a>
 
-<p align="center"><sub>Open to conversations about AI, data science, and small projects worth trying.</sub></p>
+<p align="center">
+  <a href="mailto:rayzanfazri@gmail.com">Email</a> &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/rayzan-fazri-ramdany-190063291">LinkedIn</a> &nbsp;·&nbsp;
+  <a href="https://www.instagram.com/rayzan3_0">Instagram</a> &nbsp;·&nbsp;
+  <a href="https://janlearns.github.io/Portofolio/">Portfolio</a> &nbsp;·&nbsp;
+  <a href="#top">Back to top ↑</a>
+</p>
+
+<p align="center"><sub>Artwork generated by <a href="./scripts/build_profile.py">scripts/build_profile.py</a> · type set in <a href="https://fonts.google.com/specimen/Inter+Tight">Inter Tight</a></sub></p>
